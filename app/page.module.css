@@ -1,0 +1,140 @@
+.title {
+  font-weight: 600;
+  font-size: 22px;
+  padding: 4px;
+  letter-spacing: 1px;
+  border-bottom-style: groove;
+}
+
+.navbar {
+  background-color: #242124;
+  border-radius: 10px;
+  padding-block: 10px;
+  padding-inline: 15px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.navbar_inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.description_article_row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.description_article_column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bike_name {
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+
+.developer_name {
+  font-size: 24px;
+}
+
+.details {
+  font-size: 16px;
+}
+
+.box_container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #242124;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  padding-inline: 10px;
+  gap: 10px;
+}
+
+.bike_images {
+  display: flex;
+  gap: 10px;
+  border-radius: 15px;
+  overflow-x: auto;
+  align-items: center;
+  justify-content: center;
+}
+.bike_images::-webkit-scrollbar {
+  display: none;
+}
+.bike_images img {
+  border-radius: 15px;
+  width: 32%;
+}
+
+.specification_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.specific_specification {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 40%;
+  gap: 5px;
+}
+.specific_specification span {
+  background: #242124;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.specs_title {
+  flex: 1;
+  font-weight: 800;
+}
+.specs_inner {
+  flex: 0.5;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px)  {
+  .navbar_inner {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .description_article_row {
+    flex-direction: column;
+  }
+  .bike_name {
+    font-size: 22px;
+  }
+  .developer_name {
+    font-size: 22px;
+  }
+  .bike_images {
+    flex-direction: column;
+    align-items: center;
+  }
+  .bike_images img {
+    border-radius: 15px;
+    width: 80%;
+  }
+  .specification_container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .specific_specification {
+    width: 94%;
+  }
+}

@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  margin-block: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+article {
+  color: white;
+  display: flex;
+  padding-inline: 1em;
+}
+
+b {
+  font-weight: 700;
+}
