@@ -99,6 +99,7 @@ export default function Home() {
                   <span className={[styles.developer_name, brah.className].join(" ")}>Yuvaraja.M CSE-B</span>
                   <span className={[styles.developer_name, brah.className].join(" ")}>1st Year BM Assignment</span>
                 </div>
+                <a href="https://bm.yuvaraja28.me" className={[styles.developer_name, styles.link, brah.className].join(" ")}>https://bm.yuvaraja28.me</a>
             </div>
         </article>
         <article>
